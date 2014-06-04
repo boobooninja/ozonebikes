@@ -411,13 +411,17 @@ a {
     color: #085387; }
 
 /* line 19, ../../../sass/shoestring/main.sass */
+* {
+  border: 2px solid red; }
+
+/* line 22, ../../../sass/shoestring/main.sass */
 body {
   background: #ddf0fd; }
-  /* line 21, ../../../sass/shoestring/main.sass */
+  /* line 24, ../../../sass/shoestring/main.sass */
   body h1 {
     color: hotpink; }
 
-/* line 24, ../../../sass/shoestring/main.sass */
+/* line 27, ../../../sass/shoestring/main.sass */
 .border-tester {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -431,3 +435,12 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+
+/* line 34, ../../../sass/shoestring/main.sass */
+.inner-wrap {
+  background: #0c80cf;
+  height: 2rem; }
+
+/* line 38, ../../../sass/shoestring/main.sass */
+#logo {
+  font-size: 2rem; }
