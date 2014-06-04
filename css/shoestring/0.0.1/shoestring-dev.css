@@ -437,10 +437,6 @@ body {
   user-select: none; }
 
 /* line 34, ../../../sass/shoestring/main.sass */
-.inner-wrap {
-  background: #0c80cf;
-  height: 2rem; }
-
-/* line 38, ../../../sass/shoestring/main.sass */
-#logo {
-  font-size: 2rem; }
+.nav a {
+  width: 100%;
+  float: left; }
