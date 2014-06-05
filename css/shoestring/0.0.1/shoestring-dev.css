@@ -272,9 +272,7 @@ html {
 @media (min-width: 40rem) {
   /* line 41, ../../../sass/shoestring/grid.sass */
   .column {
-    float: left;
-    margin-right: 1rem;
-    padding-right: 1rem; }
+    float: left; }
     /* line 45, ../../../sass/shoestring/grid.sass */
     .column.full {
       width: 100%; }
@@ -410,18 +408,15 @@ a {
   a:active {
     color: #085387; }
 
-/* line 19, ../../../sass/shoestring/main.sass */
-* {
-  border: 2px solid red; }
-
 /* line 22, ../../../sass/shoestring/main.sass */
-body {
-  background: #ddf0fd; }
-  /* line 24, ../../../sass/shoestring/main.sass */
-  body h1 {
-    color: hotpink; }
+.wrapper {
+  background: white; }
 
-/* line 27, ../../../sass/shoestring/main.sass */
+/* line 25, ../../../sass/shoestring/main.sass */
+.container {
+  background: #ddf0fd; }
+
+/* line 28, ../../../sass/shoestring/main.sass */
 .border-tester {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -436,7 +431,39 @@ body {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 34, ../../../sass/shoestring/main.sass */
+/* line 35, ../../../sass/shoestring/main.sass */
 .nav a {
   width: 100%;
   float: left; }
+
+/* line 39, ../../../sass/shoestring/main.sass */
+.bike {
+  border: 1px solid black;
+  padding: 0.25rem;
+  font-size: 0.75rem;
+  margin: 0.35rem;
+  background: white; }
+
+/* line 46, ../../../sass/shoestring/main.sass */
+.bike-grid {
+  text-align: center; }
+
+/* line 49, ../../../sass/shoestring/main.sass */
+.supporting-text {
+  font-size: 0.75em;
+  text-align: center; }
+
+/* line 53, ../../../sass/shoestring/main.sass */
+.footer {
+  background: #0c80cf;
+  height: 6rem; }
+
+/* line 57, ../../../sass/shoestring/main.sass */
+.sponsors {
+  width: 100%;
+  float: left; }
+
+/* line 61, ../../../sass/shoestring/main.sass */
+.sponsor img {
+  width: 4rem;
+  height: 4rem; }

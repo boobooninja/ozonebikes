@@ -16,13 +16,14 @@
 
 @import links
 
-*
-  border: 2px solid red
+// *
+//   border: 2px solid red
 
-body
+.wrapper
+  background: white
+
+.container
   background: $mks-blue
-  h1
-    color: $sassy-pink
 
 .border-tester
   +border-radius(5px)
@@ -34,3 +35,29 @@ body
 .nav a
   width: 100%
   float: left
+
+.bike
+  border: 1px solid black
+  padding: 0.25rem
+  font-size: 0.75rem
+  margin: 0.35rem
+  background: white
+
+.bike-grid
+  text-align: center
+
+.supporting-text
+  font-size: 0.75em
+  text-align: center
+
+.footer
+  background: darken($mks-blue, 50%)
+  height: 6rem
+
+.sponsors
+  width: 100%
+  float: left
+
+.sponsor img
+  width: 4rem
+  height: 4rem
