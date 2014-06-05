@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Fredoka+One|Open+Sans)
+
+
 // adding normalize to override browser defaults
 @import normalize
 
@@ -16,14 +19,8 @@
 
 @import links
 
-// *
-//   border: 2px solid red
-
-.wrapper
-  background: white
-
-.container
-  background: $mks-blue
+*
+  border: 1px solid red
 
 .border-tester
   +border-radius(5px)
@@ -32,32 +29,65 @@
   height: 100px
   +user-select
 
-.nav a
-  width: 100%
+.nav-wrap
+  // background: darken($mks-blue, 50%)
+  background: $prim_1
+  color: white
+
+.logo
   float: left
+  line-height: 3rem
+  display: inline-block
+  font-family: 'Permanent Marker'
+  font-size: 3rem
+
+.nav
+  float: right
+  span
+    padding: 0 15px
+    line-height: 3rem
+    display: inline-block
+    font-family: 'Open Sans'
+    &:hover
+      color: black
+      cursor: pointer
+
+.wallpaper
+  // background: url('../../../img/wallpaper.jpg'), no-repeat
+  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg), no-repeat
+  height: 11rem
+
+.headline
+  font-family: 'Open Sans'
+  font-size: 1rem
+
+.bike-wrap
+  background: white
+
+.support-wrap
+  background: $wallp
 
 .bike
-  border: 1px solid black
+  // border: 1px solid black
   padding: 0.25rem
   font-size: 0.75rem
   margin: 0.35rem
   background: white
+  img
+    width: 100%
+  p
+    font-family: 'Permanent Marker'
+    font-size: 1rem
 
 .bike-grid
   text-align: center
 
-.supporting-text
+.support-text
   font-size: 0.75em
-  text-align: center
+  font-family: 'Open Sans'
+  margin: 0 10px
 
-.footer
-  background: darken($mks-blue, 50%)
-  height: 6rem
+.footer-wrap
+  background: white
+  border-top: 1rem solid #454440
 
-.sponsors
-  width: 100%
-  float: left
-
-.sponsor img
-  width: 4rem
-  height: 4rem

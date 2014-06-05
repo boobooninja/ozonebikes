@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Fredoka+One|Open+Sans);
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 7, ../../../sass/shoestring/normalize/body.sass */
 html {
@@ -409,14 +410,10 @@ a {
     color: #085387; }
 
 /* line 22, ../../../sass/shoestring/main.sass */
-.wrapper {
-  background: white; }
+* {
+  border: 1px solid red; }
 
 /* line 25, ../../../sass/shoestring/main.sass */
-.container {
-  background: #ddf0fd; }
-
-/* line 28, ../../../sass/shoestring/main.sass */
 .border-tester {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -431,39 +428,76 @@ a {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 35, ../../../sass/shoestring/main.sass */
-.nav a {
-  width: 100%;
-  float: left; }
+/* line 32, ../../../sass/shoestring/main.sass */
+.nav-wrap {
+  background: #1144aa;
+  color: white; }
 
-/* line 39, ../../../sass/shoestring/main.sass */
+/* line 37, ../../../sass/shoestring/main.sass */
+.logo {
+  float: left;
+  line-height: 3rem;
+  display: inline-block;
+  font-family: "Permanent Marker";
+  font-size: 3rem; }
+
+/* line 44, ../../../sass/shoestring/main.sass */
+.nav {
+  float: right; }
+  /* line 46, ../../../sass/shoestring/main.sass */
+  .nav span {
+    padding: 0 15px;
+    line-height: 3rem;
+    display: inline-block;
+    font-family: "Open Sans"; }
+    /* line 51, ../../../sass/shoestring/main.sass */
+    .nav span:hover {
+      color: black;
+      cursor: pointer; }
+
+/* line 55, ../../../sass/shoestring/main.sass */
+.wallpaper {
+  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg), no-repeat;
+  height: 11rem; }
+
+/* line 60, ../../../sass/shoestring/main.sass */
+.headline {
+  font-family: "Open Sans";
+  font-size: 1rem; }
+
+/* line 64, ../../../sass/shoestring/main.sass */
+.bike-wrap {
+  background: white; }
+
+/* line 67, ../../../sass/shoestring/main.sass */
+.support-wrap {
+  background: #ffcc0a; }
+
+/* line 70, ../../../sass/shoestring/main.sass */
 .bike {
-  border: 1px solid black;
   padding: 0.25rem;
   font-size: 0.75rem;
   margin: 0.35rem;
   background: white; }
+  /* line 76, ../../../sass/shoestring/main.sass */
+  .bike img {
+    width: 100%; }
+  /* line 78, ../../../sass/shoestring/main.sass */
+  .bike p {
+    font-family: "Permanent Marker";
+    font-size: 1rem; }
 
-/* line 46, ../../../sass/shoestring/main.sass */
+/* line 82, ../../../sass/shoestring/main.sass */
 .bike-grid {
   text-align: center; }
 
-/* line 49, ../../../sass/shoestring/main.sass */
-.supporting-text {
+/* line 85, ../../../sass/shoestring/main.sass */
+.support-text {
   font-size: 0.75em;
-  text-align: center; }
+  font-family: "Open Sans";
+  margin: 0 10px; }
 
-/* line 53, ../../../sass/shoestring/main.sass */
-.footer {
-  background: #0c80cf;
-  height: 6rem; }
-
-/* line 57, ../../../sass/shoestring/main.sass */
-.sponsors {
-  width: 100%;
-  float: left; }
-
-/* line 61, ../../../sass/shoestring/main.sass */
-.sponsor img {
-  width: 4rem;
-  height: 4rem; }
+/* line 90, ../../../sass/shoestring/main.sass */
+.footer-wrap {
+  background: white;
+  border-top: 1rem solid #454440; }
