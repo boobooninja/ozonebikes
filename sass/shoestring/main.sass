@@ -19,8 +19,8 @@
 
 @import links
 
-*
-  border: 1px solid red
+// *
+//   border: 1px solid red
 
 .border-tester
   +border-radius(5px)
@@ -54,8 +54,16 @@
 
 .wallpaper
   // background: url('../../../img/wallpaper.jpg'), no-repeat
-  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg), no-repeat
-  height: 11rem
+  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg) no-repeat
+  // height: 11rem
+  // height: 9rem
+  // background-color: $wallp
+  // top: #fecd2e
+  // bottom: #f7bd00
+  +linear-gradient(#fccb2d, #fec611)
+
+.headline-wrap
+  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg) no-repeat
 
 .headline
   font-family: 'Open Sans'
@@ -87,7 +95,32 @@
   font-family: 'Open Sans'
   margin: 0 10px
 
+.sponsors-wrap
+  background: $wallp
+  font-family: 'Permanent Marker'
+  font-size: 1rem
+  span
+    max-width: 80px
+    margin: 0 auto
+    display: block
+
+.sponsor
+  img
+    width: 50%
+
+
 .footer-wrap
   background: white
   border-top: 1rem solid #454440
+
+.footer
+  background: #454440
+  font-family: 'Open Sans'
+  font-size: 0.75rem
+  color: white
+  span
+    max-width: 400px
+    margin: 0 auto
+    display: block
+
 

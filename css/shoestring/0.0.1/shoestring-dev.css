@@ -409,10 +409,6 @@ a {
   a:active {
     color: #085387; }
 
-/* line 22, ../../../sass/shoestring/main.sass */
-* {
-  border: 1px solid red; }
-
 /* line 25, ../../../sass/shoestring/main.sass */
 .border-tester {
   -moz-border-radius: 5px;
@@ -457,47 +453,85 @@ a {
 
 /* line 55, ../../../sass/shoestring/main.sass */
 .wallpaper {
-  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg), no-repeat;
-  height: 11rem; }
+  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg) no-repeat;
+  background-color: #fec611;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fccb2d), to(#fec611));
+  background-image: -webkit-linear-gradient(top, #fccb2d, #fec611);
+  background-image: -moz-linear-gradient(top, #fccb2d, #fec611);
+  background-image: -ms-linear-gradient(top, #fccb2d, #fec611);
+  background-image: -o-linear-gradient(top, #fccb2d, #fec611);
+  background-image: linear-gradient(top, #fccb2d, #fec611);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fccb2d', EndColorStr='#fec611'); }
 
-/* line 60, ../../../sass/shoestring/main.sass */
+/* line 65, ../../../sass/shoestring/main.sass */
+.headline-wrap {
+  background: url(http://www.freewebheaders.com/wordpress/wp-content/gallery/bicycle/stylish-bicycle-header.jpg) no-repeat; }
+
+/* line 68, ../../../sass/shoestring/main.sass */
 .headline {
   font-family: "Open Sans";
   font-size: 1rem; }
 
-/* line 64, ../../../sass/shoestring/main.sass */
+/* line 72, ../../../sass/shoestring/main.sass */
 .bike-wrap {
   background: white; }
 
-/* line 67, ../../../sass/shoestring/main.sass */
+/* line 75, ../../../sass/shoestring/main.sass */
 .support-wrap {
   background: #ffcc0a; }
 
-/* line 70, ../../../sass/shoestring/main.sass */
+/* line 78, ../../../sass/shoestring/main.sass */
 .bike {
   padding: 0.25rem;
   font-size: 0.75rem;
   margin: 0.35rem;
   background: white; }
-  /* line 76, ../../../sass/shoestring/main.sass */
+  /* line 84, ../../../sass/shoestring/main.sass */
   .bike img {
     width: 100%; }
-  /* line 78, ../../../sass/shoestring/main.sass */
+  /* line 86, ../../../sass/shoestring/main.sass */
   .bike p {
     font-family: "Permanent Marker";
     font-size: 1rem; }
 
-/* line 82, ../../../sass/shoestring/main.sass */
+/* line 90, ../../../sass/shoestring/main.sass */
 .bike-grid {
   text-align: center; }
 
-/* line 85, ../../../sass/shoestring/main.sass */
+/* line 93, ../../../sass/shoestring/main.sass */
 .support-text {
   font-size: 0.75em;
   font-family: "Open Sans";
   margin: 0 10px; }
 
-/* line 90, ../../../sass/shoestring/main.sass */
+/* line 98, ../../../sass/shoestring/main.sass */
+.sponsors-wrap {
+  background: #ffcc0a;
+  font-family: "Permanent Marker";
+  font-size: 1rem; }
+  /* line 102, ../../../sass/shoestring/main.sass */
+  .sponsors-wrap span {
+    max-width: 80px;
+    margin: 0 auto;
+    display: block; }
+
+/* line 108, ../../../sass/shoestring/main.sass */
+.sponsor img {
+  width: 50%; }
+
+/* line 112, ../../../sass/shoestring/main.sass */
 .footer-wrap {
   background: white;
   border-top: 1rem solid #454440; }
+
+/* line 116, ../../../sass/shoestring/main.sass */
+.footer {
+  background: #454440;
+  font-family: "Open Sans";
+  font-size: 0.75rem;
+  color: white; }
+  /* line 121, ../../../sass/shoestring/main.sass */
+  .footer span {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block; }
